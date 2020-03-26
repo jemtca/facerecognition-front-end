@@ -1,7 +1,7 @@
 
 > There is an existing user on **Heroku** in case someone doesn't wish to register ;-)
-> **Email**: guest@guest.com
-> **Password**: guest
+> * **Email**: guest@guest.com
+> * **Password**: guest
 
 # FaceRecognition Project
 Repository to upload the facerecognition project (front-end).
