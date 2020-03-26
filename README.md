@@ -1,68 +1,49 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+> There is an existing user on **Heroku** in case someone doesn't wish to register ;-)
+> **Email**: guest@guest.com
+> **Password**: guest
 
-In the project directory, you can run:
+# FaceRecognition Project
+Repository to upload the facerecognition project (front-end).
 
-### `npm start`
+## About
+React app that detects human faces in an image and coordinate locations of where those faces appear with a bounding box.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Initial idea
+    * Recognize a human face in a picture.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+* Improvemnets/fixes once the app was finished
+	* Recognize more than one human face in a picture.
+	* Add a new feature to the component than handles the face recognition: show if the picture has one face, several ones or none.
+	* Error handling improved to get error messages and avoid the app simply crashed.
+	* Fixed an issue where when a user logged out was redirected to the registration form instead of sign-in form.
+	* Fixed an issue where when a user logged out and a new user logged in, the new user could see some information from the previous user.
+	* Fixed an issue where a user could log in or register without some information or any.
+	* Fixed an issue where Clarifai API key was exposed when there was a communication between the front-end and the Clarifai API.
+	* Use of dependency injection.
+	* Use of environmental variables.
 
-### `npm test`
+## Screenshot
+![](https://github.com/jemtca/facerecognition-front-end/blob/master/screenshots/facerecognition.gif)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
+* HTML, CSS, JavaScript.
+* npm (packages used): [create-react-app](https://www.npmjs.com/package/create-react-app), [tachyons](https://www.npmjs.com/package/tachyons), [reac-tilt](https://www.npmjs.com/package/react-tilt), [react-particles](https://www.npmjs.com/package/react-particles-js), [express](https://www.npmjs.com/package/express), [nodemon](https://www.npmjs.com/package/nodemon), [cors](https://www.npmjs.com/package/cors), [bcrypt](https://www.npmjs.com/package/bcrypt-nodejs), [knex](https://www.npmjs.com/package/knex), [pg](https://www.npmjs.com/package/pg).
+* APIs: [Clarifai](https://www.clarifai.com/), [Postman](https://www.postman.com/).
+* Database: [PostgreSQL](https://www.postgresql.org/).
+* Cloud service: [Heroku](https://www.heroku.com/).
 
-### `npm run build`
+## How to run the project (front-end)
+* Open the console/terminal.
+* Clone the repository: **`git clone https://github.com/jemtca/facerecognition-front-end.git`**
+* Go to the project folder: **`cd facerecognition-front-end`**
+* Install dependencies/packages: **`npm install`**
+* Run the app: **`npm start`**
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How to create a database and how to run the whole project
+* Explained [here](https://github.com/jemtca/facerecognition-back-end).
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Images
+* [Example 1](https://imgix.ranker.com/user_node_img/83/1648992/original/natalie-portman-recording-artists-and-groups-photo-u300?w=650&q=50&fm=pjpg&fit=crop&crop=faces).
+* [Example 2](https://static.zennioptical.com/marketing/campaign/summer_kids_2019/070219_kids_summer_refresh_assets/kids_glasses_style_squad_og.jpg).
+* [Example 3](https://dana.org/wp-content/uploads/2019/07/investigating-individual-differences-brain-july-news-2019.jpg).
