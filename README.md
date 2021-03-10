@@ -1,4 +1,3 @@
-
 > There is an existing user on **Heroku** in case someone doesn't wish to register ;-)
 > * **Email**: guest@guest.ca
 > * **Password**: guest
