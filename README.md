@@ -6,7 +6,7 @@
 Repository to upload the facerecognition project (front-end) and explain how to run it on **macOS**.
 
 ## About
-React app that detects human faces in an image and coordinate locations of where those faces appear with a bounding box.
+Web application implementing the PERN stack (PostgreSQL - Express - React - Node) that detects human faces in an image and coordinate locations of where those faces appear with a bounding box.
 
 * Initial idea
     * Recognize a human face in a picture.
