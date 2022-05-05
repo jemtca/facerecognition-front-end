@@ -28,7 +28,7 @@ Web application implementing the PERN stack (PostgreSQL - Express - React - Node
 
 ## Technologies Used
 * HTML, CSS, JavaScript.
-* npm (packages used): [create-react-app](https://www.npmjs.com/package/create-react-app), [tachyons](https://www.npmjs.com/package/tachyons), [reac-tilt](https://www.npmjs.com/package/react-tilt), [react-particles](https://www.npmjs.com/package/react-particles-js), [nodemon](https://www.npmjs.com/package/nodemon), [express](https://www.npmjs.com/package/express), [cors](https://www.npmjs.com/package/cors), [bcrypt](https://www.npmjs.com/package/bcrypt-nodejs), [knex](https://www.npmjs.com/package/knex), [pg](https://www.npmjs.com/package/pg).
+* npm (packages used): [create-react-app](https://www.npmjs.com/package/create-react-app), [tachyons](https://www.npmjs.com/package/tachyons), [react-parallax-tilt](https://www.npmjs.com/package/react-parallax-tilt), [tsparticles](https://www.npmjs.com/package/tsparticles), [react-tsparticles](https://www.npmjs.com/package/react-tsparticles), [nodemon](https://www.npmjs.com/package/nodemon), [express](https://www.npmjs.com/package/express), [cors](https://www.npmjs.com/package/cors), [bcrypt](https://www.npmjs.com/package/bcrypt-nodejs), [knex](https://www.npmjs.com/package/knex), [pg](https://www.npmjs.com/package/pg).
 * APIs: [Clarifai](https://www.clarifai.com/), [Postman](https://www.postman.com/).
 * Database: [PostgreSQL](https://www.postgresql.org/).
 * Cloud service: [Heroku](https://www.heroku.com/).
