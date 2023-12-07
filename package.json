@@ -5,9 +5,9 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-parallax-tilt": "^1.7.156",
+    "react-parallax-tilt": "^1.7.175",
     "react-scripts": "^5.0.1",
-    "react-tsparticles": "^2.12.1",
+    "react-tsparticles": "^2.12.2",
     "tachyons": "^4.12.0",
     "tsparticles": "^2.12.0"
   },
