@@ -46,4 +46,4 @@ Web application implementing the PERN stack (PostgreSQL - Express - React - Node
 ## Images
 * [Example 1](https://imgix.ranker.com/user_node_img/83/1648992/original/natalie-portman-recording-artists-and-groups-photo-u300).
 * [Example 2](https://static.zennioptical.com/marketing/campaign/summer_kids_2019/070219_kids_summer_refresh_assets/kids_glasses_style_squad_og.jpg).
-* [Example 3](https://dana.org/wp-content/uploads/2019/07/investigating-individual-differences-brain-july-news-2019.jpg).
+* [Example 3](https://dana.org/app/uploads/2023/08/investigating-individual-differences-brain-july-news-2019.jpeg).
